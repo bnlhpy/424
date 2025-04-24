@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>貓咪九宮格與原圖</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+    .container {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      gap: 10px;
+      width: 300px;
+      height: 300px;
+    }
+    .grid img, .original img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .original {
+      width: 300px;
+      height: 300px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="grid">
+      <img src="tile_1.jpg" alt="tile 1">
+      <img src="tile_2.jpg" alt="tile 2">
+      <img src="tile_3.jpg" alt="tile 3">
+      <img src="tile_4.jpg" alt="tile 4">
+      <img src="tile_5.jpg" alt="tile 5">
+      <img src="tile_6.jpg" alt="tile 6">
+      <img src="tile_7.jpg" alt="tile 7">
+      <img src="tile_8.jpg" alt="tile 8">
+      <img src="tile_9.jpg" alt="tile 9">
+    </div>
+    <div class="original">
+      <img src="483802103_1200045657709350_8864589117587298278_n.jpg" alt="原圖">
+    </div>
+  </div>
+</body>
+</html>
